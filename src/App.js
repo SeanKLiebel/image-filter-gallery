@@ -25,7 +25,7 @@ function App() {
   return (
     <div className="App" handleSetTag={setTag}>
       <div className="tags">
-      <TagButton name="US" handleSetTag={setTag} tagActive={ tag === 'US' ? true : false}/>
+      <TagButton name="all" handleSetTag={setTag} tagActive={ tag === 'all' ? true : false}/>
       <TagButton name="EU" handleSetTag={setTag} tagActive={tag === 'EU' ? true : false}/>
       <TagButton name="CAN" handleSetTag={setTag} tagActive={tag === 'CAN' ? true : false}/>
       <TagButton name="Jamaica" handleSetTag={setTag} tagActive={tag === 'Jamaica' ? true : false}/>
