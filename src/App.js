@@ -25,10 +25,10 @@ function App() {
   return (
     <div className="App" handleSetTag={setTag}>
       <div className="tags">
-      <TagButton name="all" handleSetTag={setTag} tagActive={ tag === 'all' ? true : false}/>
-      <TagButton name="new" handleSetTag={setTag} tagActive={tag === 'new' ? true : false}/>
-      <TagButton name="free" handleSetTag={setTag} tagActive={tag === 'free' ? true : false}/>
-      <TagButton name="pro" handleSetTag={setTag} tagActive={tag === 'pro' ? true : false}/>
+      <TagButton name="US" handleSetTag={setTag} tagActive={ tag === 'US' ? true : false}/>
+      <TagButton name="EU" handleSetTag={setTag} tagActive={tag === 'EU' ? true : false}/>
+      <TagButton name="CAN" handleSetTag={setTag} tagActive={tag === 'CAN' ? true : false}/>
+      <TagButton name="Jamaica" handleSetTag={setTag} tagActive={tag === 'Jamaica' ? true : false}/>
       </div>
       <SRLWrapper>
       <div className="container">
